@@ -8,7 +8,7 @@ class App
 
     protected $params = [];
     
-    public function __contract()
+    public function __construct()
     {
         $url = $this->splitUrl();
 
