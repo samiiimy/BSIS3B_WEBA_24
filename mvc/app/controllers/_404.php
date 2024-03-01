@@ -1,6 +1,9 @@
 <?php
 
-class _404
+class _404 extends Controller
 {
-    
+    public function index()
+    {
+        $this->view('_404');
+    }
 }

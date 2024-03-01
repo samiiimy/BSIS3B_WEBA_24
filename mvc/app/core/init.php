@@ -1,7 +1,9 @@
 <?php
 
-require 'App.php'; 
-require 'function.php';
 
-$app = new App();
+require 'function.php';
+require 'Controller.php';
+
+
+require 'App.php'; 
 
