@@ -2,11 +2,13 @@
 
 
 require 'function.php';
+require 'Database.php';
 require 'Controller.php';
+require 'Model.php';
+require 'App.php';
 
-<<<<<<< HEAD
-=======
+spl_autoload_register(function ($class_name) {
 
->>>>>>> Cruz
-require 'App.php'; 
+    require '../app/models/' . $class_name . 'php';
+});
 
